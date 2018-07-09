@@ -105,8 +105,10 @@ boot(void)
 	kprintf("%s", harvard_copyright);
 	kprintf("\n");
 
-	kprintf("Put-your-group-name-here's system version %s (%s #%d)\n",
-		GROUP_VERSION, buildconfig, buildversion);
+	kprintf("This is Awesome! I need to change, though... %s (%s #%d)\n",
+          "kprintf works similar to printf, but from within the kernel",
+          buildconfig, buildversion);
+
 	kprintf("\n");
 
 	/* Early initialization. */
