@@ -53,9 +53,32 @@ At this point, you should be thinking back to when you built the os161 for the f
 Now run it again! If things went well, you should see something like this:
 
 ```text
-TODO: put in output of example change
+sys161: System/161 release 2.0.8, compiled Feb 19 2017 14:31:53
+
+OS/161 base system version 2.0.3
+(with locks&CVs solution)
+Copyright (c) 2000, 2001-2005, 2008-2011, 2013, 2014
+   President and Fellows of Harvard College.  All rights reserved.
+
+This is Awesome! I need to change, though... kprintf works similar to printf, but from within the kernel (HELLO #2)
+
+1892k physical memory available
+Device probe...
+lamebus0 (system main bus)
+emu0 at lamebus0
+ltrace0 at lamebus0
+ltimer0 at lamebus0
+beep0 at ltimer0
+rtclock0 at ltimer0
+lrandom0 at lamebus0
+random0 at lrandom0
+lser0 at lamebus0
+con0 at lser0
+
+cpu0: MIPS/161 (System/161 2.x) features 0x0
+OS/161 kernel [? for menu]: 
 ```
 
-Notice how the build number changes? This gives you valuable info during the build. Have a look at the other pieces of info. Maybe this is a moment you'd like to go down a rabbit hole, and understand how this info is [generated and handled](TODO) in the system. TODO: find and change GROUP_VERSION as appropriate. 
+Notice how the build number changes? This gives you valuable info during the build. Have a look at the other pieces of info. Maybe this is a moment you'd like to go down a rabbit hole, and understand how this info is generated and handled in the system.
 
 Now that we know how to change existing code, let's look at how we can add more code...

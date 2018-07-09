@@ -14,8 +14,7 @@ By the end of this, you will:
 * Be set up to run the terminal commands that will install your first os161
 
 ## Known Issues
-TODO: improve this
-* Dependencies missing if using Ubuntu later than v14 TODO: fix for later ubuntus
+* Dependencies missing if using Ubuntu later than v14
 * Some automatic processes not yet complete.
 
 ```text
@@ -40,4 +39,4 @@ Looking at this file, we will get a familiarity of the more fundamental settings
 #### /src/kern/conf/config and ./HELLO
 Earlier projects exclusively touch code found before `/src/kern/`. Looking in the `kern` sub-directory will allow us to understand how to have some power over the kernel build. `kern/conf/config` and `kern/conf/HELLO` are best looked at together.
 
-We can see in `./config` that we have ` # recognised directives`. `HELLO` alread has `debug` selected, and a series of devices. If you want to take an early look at how  the compiler puts things together, this is a good file to look at. Note how we `include conf/conf.kern`. We will look at that when we start adding more files. TODO: link to where we add `complex_hello.c` 
+We can see in `./config` that we have ` # recognised directives`. `HELLO` alread has `debug` selected, and a series of devices. If you want to take an early look at how  the compiler puts things together, this is a good file to look at. Note how we `include conf/conf.kern`. We will look at that when we start adding more files.

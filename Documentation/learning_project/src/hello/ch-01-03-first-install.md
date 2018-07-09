@@ -19,7 +19,7 @@ cd ~/os161/src
 Remember how in [Configure the Setup](ch-01-02-configure-setup.md), how we had a default project location? That comes into play here.
 
 #### Quick Theory
-TODO: Link to theory going into "there is user space, and there is kernel space". E.g. 
+[see issue](https://github.com/Ben-PH/os161/issues/10)
 
 An OS seperates "user space" and "kernel space" (link) goes into more detail. We have just configured "the glue" between the two spaces, but now we need to look at each space indipendently.
 
@@ -43,7 +43,7 @@ Now that we have the config generated, we can create the binaries, and put them
 where they need to be. First, we need to move to the directory where kernel
 build is managed
 * `cd ~/os161/src/kern/compile/HELLO/` (or `../compile/HELLO`)
-* `bmake depend` - TODO: what does depend do?
+* `bmake depend` - manages header file dependencies. Can use `diff` on before/after to see changes.
 * `bmake` - compiles the binaries
 * `bmake install` - puts files and symbolic links in the right place
 

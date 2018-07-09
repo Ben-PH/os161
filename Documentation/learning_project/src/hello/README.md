@@ -19,12 +19,12 @@ By the end of this project, you will have a working installation of os161 on you
 * Fixed the provided code.
 
 While achieving this, there will be opportunities to look at other things.
-* TODO: add extras >.<
+* [See issue](https://github.com/Ben-PH/os161/issues/11)
 
 ### Revision
 
 * [Basic git usage](https://learngitbranching.js.org)
-* [Basic Linux Terminal use](TODO: find a link)
+* Linux Terminal use -[codecadamy](https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/exercises/your-first-command),[enki app (daily)](https://play.google.com/store/apps/details?id=com.enki.insights&hl=en_AU)  
 
 
 Let's get started!

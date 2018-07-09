@@ -38,13 +38,13 @@ Now, to make the debugger connection
 
 ``` gdb
 (gdb) set can-use-hw-watchpoints 0 # Beyond scope.
-(gdb) dir ~/os161/src/kern/compile/HELLO # Tells our gdb TODO: ???
+(gdb) dir ~/os161/src/kern/compile/HELLO # [issue 9](https://github.com/Ben-PH/os161/issues/9)
 (gdb) target remote unix:.sockets/gdb
 ```
 
 and voila. You now have a gdb connected to an OS in the process of dying 
 #### Useful tip
-This chapters appendix goes over a way to stop us having to enter those three commands to connect to the kernel. TODO: Add the tip.
+This chapters [appendix](./appendix.html) goes over a way to stop us having to enter those three commands to connect to the kernel.
 
 ## Doing a post-mortem on a crashed kernel
 

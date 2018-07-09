@@ -25,13 +25,13 @@ When this part of the project has been completed, you will have made changes so 
 
 ## buggy_hello.c
 
-At this stage, we are adding files to our kernel. Inside this file is the code that runs `complex_hell()`, which itself calls helper function(s TODO plural here?), which is provided.
+At this stage, we are adding files to our kernel. Inside this file is the code that runs `complex_hell()`, which itself calls helper functions, which is provided.
 
 Start by choosing where to put the `complex_hello()` function call. All it does is print "hello world", but make sure it prints this immedietaly above the prompt.
 
 #### Adding buggy_hello.c to the build
 
-Although you are provided the code [here](TODO), it is your job to select where to put the file. This is up to you, but be smart about it. It makes sense to put it somewhere in `~/os161/src/kern/` or one of it's sub-directories, and where it goes is up to you.
+Although you are provided the code in this projects [appendix](./appendix.html), it is your job to select where to put the file. This is up to you, but be smart about it. It makes sense to put it somewhere in `~/os161/src/kern/` or one of it's sub-directories, and where it goes is up to you.
 
 ```text
 Just like source-code style, there are differences in opinion on project layout style,

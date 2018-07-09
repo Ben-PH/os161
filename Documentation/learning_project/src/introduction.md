@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome to this os161 Learning Project, where we work on practical skills, and theoretical understandings for OS engineering. We this piece by piece with sub-projects, such as concurrancy, system calls, and virtual memory. Each subproject will give you hands-on activities, and will be accompanied by the relevant thoery TODO: write thoery for hello.
+Welcome to this os161 Learning Project, where we work on practical skills, and theoretical understandings for OS engineering. We this piece by piece with sub-projects, such as concurrancy, system calls, and virtual memory. Each subproject will give you hands-on activities, and will be accompanied by the relevant thoery.
 
 ## Project Background
 
@@ -30,7 +30,7 @@ You will need to have the following installed on your machine:
 * git
 * gcc
 * gdb
-* Ubuntu desktop version 14 - either native or running as a virtual machine. (TODO: refine this so can use later/other dists)
+* Ubuntu desktop version 14 - either native or running as a virtual machine. [See Issue](https://github.com/Ben-PH/os161/issues/5)
 
 The Learning Project starts of relatively straight forward and assumes little at the start, but rapidly ramps up. Having the following is important to an enjoyable project
 * Comfortable with C or similar language, especially pointers, multi-file development, and particularly memory management. 
@@ -56,7 +56,7 @@ Finally, having a good development environment is important on such a large code
 * Vim - A phenominally powerful text editor, you will want plugins for a good setup. Suggestions include:
   * cscope - project navigation
   * nerd-tree - file-tree visualisation
-  * TODO: Add more
+  * [See Issue](https://github.com/Ben-PH/os161/issues/5)
 
 There are IDEs that work well "out of the box", if configuration and customisation is not your thing. Examples include:
 * VS Code

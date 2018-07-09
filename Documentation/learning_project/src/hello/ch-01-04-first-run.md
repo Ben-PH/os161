@@ -7,7 +7,7 @@ Now it's just a matter of running it. Let's get started!
 
 In the last section, we created the resources (binaries, file structure, etc)
 that os161 runs on. This build runs on simulated hardware. System161, which we
-installed during [Acquire resources](TODO).
+installed during [Acquire resources](http://localhost:3000/hello/ch-01-01-acquire-resources.html).
 
 ```cmd
 cd ~/os161/root/

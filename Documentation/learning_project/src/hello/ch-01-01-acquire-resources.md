@@ -13,8 +13,8 @@ $ git clone https://github.com/Ben-PH/os161/
 
 os161 development comes with some tools and utilities, but we need some more:
 
-Download utilities .deb package [Here](https://drive.google.com/open?id=1KSqv82TUebg2VXrtXCPjvcdlyCwQ0GA5) TODO: get a better source
-
+Download utilities .deb package [Here](https://drive.google.com/open?id=1KSqv82TUebg2VXrtXCPjvcdlyCwQ0GA5) 
+[see issue](https://github.com/Ben-PH/os161/issues/12)
 install from the .deb
 ```cmd
 $ apt install os161-utils_2.0.8.deb 
