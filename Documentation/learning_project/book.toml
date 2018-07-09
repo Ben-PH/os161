@@ -1,0 +1,5 @@
+[book]
+authors = ["Ben Pieters-Hawke"]
+multilingual = false
+src = "src"
+title = "Learning Project"

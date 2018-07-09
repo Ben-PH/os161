@@ -3,8 +3,10 @@
 /src/defs.mk
 /root/kernel*
 /kern/compile
+/TAGS
 /src/TAGS
 /src/kern/compile/*
+/Documentation/learning_project/book/
 
 # Prerequisites
 *.d
