@@ -1,25 +1,29 @@
 # Appendix
 
 ### gdb tips
-make a file ~/.gdbinit and put the following in it:
+So you can connect to a kernel each time with one command, make a file ~/.gdbinit and put the following in it:
 
 ```gdb
-
 set can-use-hw-watchpoints 0
+printf "hw watch points disabled"
+
+b panic
 define asst0
-   dir ~/cs3231/asst0-src/kern/compile/ASST0
-   target remote unix:.sockets/gdb
-   b panic
-   b kmain
+    info break
+    dir ~/cs3231/asst0-src/kern/compile/HELLO
+    target remote unix:.sockets/gdb
+
 end
 ```
 
 alternatvely, you can put it whereever you like, and call os161-gdb with
 ```cmd
-> os161-gdb -ix /path/to/your/gdbinit kernel
+os161-gdb -ix /path/to/your/gdbinit kernel
 ```
 
 ### buggy_hello.c
+
+For extending your kernel
 
 ```C
 #include <types.h>
@@ -70,5 +74,4 @@ void complex_hello(void)
 	/* Free the allocated memory */
 	kfree(copy);
 }
-
 ```
