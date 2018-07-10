@@ -131,7 +131,9 @@ void cv_destroy(struct cv *);
  *
  * For all three operations, the current thread must hold the lock passed
  * in. Note that under normal circumstances the same lock should be used
- * on all operations with any particular CV.
+ * on all operations with any particular CV. These operations need to be
+ * used in a particular way, as described in theory notes. TODO: add the
+ * theory notes.
  *
  * These operations must be atomic. You get to write them.
  */

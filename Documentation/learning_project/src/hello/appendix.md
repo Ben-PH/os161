@@ -10,7 +10,7 @@ printf "hw watch points disabled"
 b panic
 define asst0
     info break
-    dir ~/cs3231/asst0-src/kern/compile/HELLO
+    dir ~/os161/src/kern/compile/HELLO
     target remote unix:.sockets/gdb
 
 end
@@ -20,6 +20,7 @@ alternatvely, you can put it whereever you like, and call os161-gdb with
 ```cmd
 os161-gdb -ix /path/to/your/gdbinit kernel
 ```
+This will need a change to another file, but gdb will give you instructions.
 
 ### buggy_hello.c
 

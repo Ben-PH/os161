@@ -15,4 +15,7 @@
   * [Fixing buggy_hello.c](./hello/ch-01-07-fixing-buggy.md)
   * [Wrapping Up](./hello/ch-01-08-wrap-up.md)
   * [Hello Appenndix](./hello/appendix.md)
+  
+
+* [License](./LICENSE.md)
 

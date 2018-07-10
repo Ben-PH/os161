@@ -1,10 +1,10 @@
 # Introduction
 
-Welcome to this os161 Learning Project, where we work on practical skills, and theoretical understandings for OS engineering. We this piece by piece with sub-projects, such as concurrancy, system calls, and virtual memory. Each subproject will give you hands-on activities, and will be accompanied by the relevant thoery.
+Welcome to this os161 Learning Project, where we work on practical skills, and the theoretical understandings for OS engineering. We do this piece-by-piece with sub-projects, such as concurrancy, system calls, and virtual memory. Each subproject will give you hands-on activities, and will be accompanied by the relevant thoery.
 
 ## Project Background
 
-After an early exit from my university OS course (because: reasons), I resolved to return for next course enrollment. For me, teaching is not just a hobby, but my preferred study method, because you must set yourself a path of commitment, integrity and self-study of the highest standard in to do so, and writing these is an important part of that. By developing this material, I don't only have a lot of fun and learn across a broad scope, I get to demonstrate my work, build my own skills, and prepare for the next enrollment for maximum learning value.
+After an early exit from my university OS course (because: reasons), I resolved to return for next course enrollment. For me, teaching is not just a hobby, but my preferred study method. Taking on such a responsibility, you must set yourself a path of commitment, integrity and self-study of the highest standard. This publication is a productive and enjoyable means of meeting this requirement. It also gives me a drive and opportunity to demonstrate my work, build my own skills, and prepare for the next enrollment for maximum learning value.
 
 This Learning Project was inspired by, and is drawn heavily from, UNSW's [COMP3231 "Operating Systems"](http://www.handbook.unsw.edu.au/undergraduate/courses/2017/COMP3231.html) course. This courses practical component uses [OS/161](http://os161.eecs.harvard.edu/), alongside in depth theory. COMP3231 is a pre-requisite for[COMP9242](http://www.handbook.unsw.edu.au/undergraduate/courses/2017/COMP9242.html), and has close ties with [the seL4 project](https://sel4.systems/). Opinion: This relationship between COMP3231 and seL4 makes for an interesting pathway between instructional OS engineering and OS engineering at the highest level.
 

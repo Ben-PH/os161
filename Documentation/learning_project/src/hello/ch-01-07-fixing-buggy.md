@@ -18,17 +18,16 @@ So the code we've added to the kernel causes a kernel panic. Not Good! So let's 
 * gdb
 * role of `~/os161/src/kern/conf/conf.kern`
 
-Maybe you see the bug just by looking at the code. In that case, well done. In any case, debugging kernels in general is a tall order and an essential skill, so let's build our arsenel of awesome, and get some practice in.
+Maybe you see the bug just by looking at the code. In that case, well done. In any case, debugging kernels in general is a tall order and an essential skill to actively devolop, so let's build our arsenel of awesome, and get some practice in.
 
 
-As we go through the projects we are working on, there is the ever present cloud of bugs. With the help of debugging tools, we are well equiped to better handle these headaches. Debugging a kernel, however, presents an interesting problem, which os161 handles nicely with `os161-gdb`. This is a tool that can connect to an instance of os161 running on top of sys161 as a seperate process. Let's get startad.
+As we go through the projects we are working on, there is the ever present cloud of bugs. With the help of debugging tools, we are well equiped to clear the skies. Debugging a kernel, however, presents an interesting problem, which OS/161 handles with `os161-gdb`. This is a tool that can connect to an instance of OS/161 running on top of sys161 as a seperate process. This allows us to connect to an OS/161 process when a crash is in progress.
 
 ## Connecting to a dying kernel
 
-The os runs, but it crashes. As it's currently configured, though, os161 will halt during the crash, giving you an opportunity to see what happens. Let's do exactly that.
+The os runs, but it crashes. As it's currently configured, though, OS/161 will halt during the crash, giving you an opportunity to see what happens. Let's do exactly that.
 
-
-To open up a modified gdb that suites the needs of os161.
+To open up a modified gdb that suites the needs of OS/161.
 ```cmd
 cd ~/os161/root/
 sys161-gdb kernel
@@ -44,7 +43,7 @@ Now, to make the debugger connection
 
 and voila. You now have a gdb connected to an OS in the process of dying 
 #### Useful tip
-This chapters [appendix](./appendix.html) goes over a way to stop us having to enter those three commands to connect to the kernel.
+This chapters [appendix](./appendix.html) provides a way to do this with a single command.
 
 ## Doing a post-mortem on a crashed kernel
 
@@ -66,4 +65,4 @@ in another terminal, connect to the running OS as before. At this point, os161-g
 
 Now you can use commands such as `break`, `continue`, `next`, `step`, etc. 
 
-Use your debugging skills to find the issue! Now, change the file-name, make any needed config files, reconfigure, build, and run your working kernel complete with `esoteric_hello.c`!
+Use your debugging skills to find the issue! Complete this project by changing the file-name, make any needed changes to config files, reconfigure, build, and run your working kernel complete with `no_longer_buggy_hello.c`!
